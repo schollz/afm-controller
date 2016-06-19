@@ -66,11 +66,11 @@
         <NumElts>3</NumElts>
         <String>
             <Name>File Name</Name>
-            <Val/>
+            <Val>datatest</Val>
         </String>
         <Path>
             <Name>Save Directory</Name>
-            <Val/>
+            <Val>C:\Users\Steve\Documents\GitHub\afm-controller\test</Val>
         </Path>
         <String>
             <Name>Version</Name>
@@ -158,19 +158,19 @@
         <NumElts>5</NumElts>
         <DBL>
             <Name>X Position Set-point</Name>
-            <Val>0.00000000000000</Val>
+            <Val>700.00000000000000</Val>
         </DBL>
         <DBL>
             <Name>Y Position Set-point</Name>
-            <Val>0.00000000000000</Val>
+            <Val>5949.99999999999999</Val>
         </DBL>
         <DBL>
             <Name>Z Position Set-point</Name>
-            <Val>0.00000000000000</Val>
+            <Val>10250.00000000000000</Val>
         </DBL>
         <DBL>
             <Name>Z Scan Set-point</Name>
-            <Val>0.00000000000000</Val>
+            <Val>600.00000000000000</Val>
         </DBL>
         <String>
             <Name>Version</Name>
