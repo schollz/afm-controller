@@ -1,0 +1,144 @@
+<?xml version="1.0" standalone="yes"?>
+<LVData>
+    <Version>13.0f2</Version>
+    <Cluster>
+        <Name>IO Channels</Name>
+        <NumElts>9</NumElts>
+        <String>
+            <Name>Division Input Channel</Name>
+            <Val></Val>
+        </String>
+        <String>
+            <Name>Sum Input Channel</Name>
+            <Val></Val>
+        </String>
+        <String>
+            <Name>X Input Channel</Name>
+            <Val></Val>
+        </String>
+        <String>
+            <Name>X Output Channel</Name>
+            <Val>Dev1/ao0</Val>
+        </String>
+        <String>
+            <Name>Y Input Channel</Name>
+            <Val></Val>
+        </String>
+        <String>
+            <Name>Y Output Channel</Name>
+            <Val>Dev1/ao1</Val>
+        </String>
+        <String>
+            <Name>Z Input Channel</Name>
+            <Val></Val>
+        </String>
+        <String>
+            <Name>Z Output Channel</Name>
+            <Val>Dev1/ao2</Val>
+        </String>
+        <String>
+            <Name>Version</Name>
+            <Val>1.0.0</Val>
+        </String>
+    </Cluster>
+    <Cluster>
+        <Name>Physical Constants</Name>
+        <NumElts>14</NumElts>
+        <DBL>
+            <Name>Maximum Input Voltage</Name>
+            <Val>10.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Maximum Output Voltage</Name>
+            <Val>10.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Minimum Input Voltage</Name>
+            <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Minimum Output Voltage</Name>
+            <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>X Maximum Extension</Name>
+            <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>X Minimum Extension</Name>
+            <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>X Piezo Response</Name>
+            <Val>1000.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Y Maximum Extension</Name>
+            <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Y Minimum Extension</Name>
+            <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Y Piezo Response</Name>
+            <Val>1000.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Z Maximum Extension</Name>
+            <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Z Minimum Extension</Name>
+            <Val>0.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Z Piezo Response</Name>
+            <Val>1000.00000000000000</Val>
+        </DBL>
+        <String>
+            <Name>Version</Name>
+            <Val>1.0.0</Val>
+        </String>
+    </Cluster>
+    <Cluster>
+        <Name>Set Points</Name>
+        <NumElts>5</NumElts>
+        <DBL>
+            <Name>X Position Set-point</Name>
+            <Val>700.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Y Position Set-point</Name>
+            <Val>950.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Z Position Set-point</Name>
+            <Val>1125.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Z Scan Set-point</Name>
+            <Val>1000.00000000000000</Val>
+        </DBL>
+        <String>
+            <Name>Version</Name>
+            <Val>1.0.0</Val>
+        </String>
+    </Cluster>
+    <Cluster>
+        <Name>Experimental Parameters</Name>
+        <NumElts>3</NumElts>
+        <DBL>
+            <Name>Number of Samples</Name>
+            <Val>10000.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Ramp Rate</Name>
+            <Val>1.00000000000000</Val>
+        </DBL>
+        <String>
+            <Name>Version</Name>
+            <Val>1.0.0</Val>
+        </String>
+    </Cluster>
+</LVData>
