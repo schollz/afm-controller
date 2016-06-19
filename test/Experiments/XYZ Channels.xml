@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<LVData>
+    <Version>13.0f2</Version>
+    <Cluster>
+        <Name>IO Channels</Name>
+        <NumElts>9</NumElts>
+        <String>
+            <Name>Division Input Channel</Name>
+            <Val>Dev1/ai4</Val>
+        </String>
+        <String>
+            <Name>Sum Input Channel</Name>
+            <Val>Dev1/ai3</Val>
+        </String>
+        <String>
+            <Name>X Input Channel</Name>
+            <Val>Dev1/ai0</Val>
+        </String>
+        <String>
+            <Name>X Output Channel</Name>
+            <Val>Dev1/ao0</Val>
+        </String>
+        <String>
+            <Name>Y Input Channel</Name>
+            <Val>Dev1/ai1</Val>
+        </String>
+        <String>
+            <Name>Y Output Channel</Name>
+            <Val>Dev1/ao1</Val>
+        </String>
+        <String>
+            <Name>Z Input Channel</Name>
+            <Val>Dev1/ai2</Val>
+        </String>
+        <String>
+            <Name>Z Output Channel</Name>
+            <Val>Dev1/ao2</Val>
+        </String>
+        <String>
+            <Name>Version</Name>
+            <Val>1.0.0</Val>
+        </String>
+    </Cluster>
+</LVData>
