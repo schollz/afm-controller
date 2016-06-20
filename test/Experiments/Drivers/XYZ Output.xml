@@ -2,39 +2,19 @@
 <LVData>
     <Version>13.0f2</Version>
     <Cluster>
-        <Name>Calibration Inputs</Name>
-        <NumElts>4</NumElts>
-        <DBL>
-            <Name>Number of Sweeps</Name>
-            <Val>0.00000000000000</Val>
-        </DBL>
-        <DBL>
-            <Name>Calibration Sample Rate</Name>
-            <Val>0.00000000000000</Val>
-        </DBL>
-        <DBL>
-            <Name>Samples Per Sweep</Name>
-            <Val>0.00000000000000</Val>
-        </DBL>
-        <String>
-            <Name>Version</Name>
-            <Val>1.0.0</Val>
-        </String>
-    </Cluster>
-    <Cluster>
         <Name>IO Channels</Name>
         <NumElts>9</NumElts>
         <String>
             <Name>Division Input Channel</Name>
-            <Val>Dev1/ai4</Val>
+            <Val></Val>
         </String>
         <String>
             <Name>Sum Input Channel</Name>
-            <Val>Dev1/ai3</Val>
+            <Val></Val>
         </String>
         <String>
             <Name>X Input Channel</Name>
-            <Val>Dev1/ai0</Val>
+            <Val></Val>
         </String>
         <String>
             <Name>X Output Channel</Name>
@@ -42,7 +22,7 @@
         </String>
         <String>
             <Name>Y Input Channel</Name>
-            <Val>Dev1/ai1</Val>
+            <Val></Val>
         </String>
         <String>
             <Name>Y Output Channel</Name>
@@ -50,28 +30,12 @@
         </String>
         <String>
             <Name>Z Input Channel</Name>
-            <Val>Dev1/ai2</Val>
+            <Val></Val>
         </String>
         <String>
             <Name>Z Output Channel</Name>
             <Val>Dev1/ao2</Val>
         </String>
-        <String>
-            <Name>Version</Name>
-            <Val>1.0.0</Val>
-        </String>
-    </Cluster>
-    <Cluster>
-        <Name>Persistent Data</Name>
-        <NumElts>3</NumElts>
-        <String>
-            <Name>File Name</Name>
-            <Val>datatest</Val>
-        </String>
-        <Path>
-            <Name>Save Directory</Name>
-            <Val>C:\Users\Steve\Documents\GitHub\afm-controller\test</Val>
-        </Path>
         <String>
             <Name>Version</Name>
             <Val>1.0.0</Val>
@@ -98,7 +62,7 @@
         </DBL>
         <DBL>
             <Name>X Maximum Extension</Name>
-            <Val>15000.00000000000000</Val>
+            <Val>0.00000000000000</Val>
         </DBL>
         <DBL>
             <Name>X Minimum Extension</Name>
@@ -110,7 +74,7 @@
         </DBL>
         <DBL>
             <Name>Y Maximum Extension</Name>
-            <Val>15000.00000000000000</Val>
+            <Val>0.00000000000000</Val>
         </DBL>
         <DBL>
             <Name>Y Minimum Extension</Name>
@@ -122,7 +86,7 @@
         </DBL>
         <DBL>
             <Name>Z Maximum Extension</Name>
-            <Val>15000.00000000000000</Val>
+            <Val>0.00000000000000</Val>
         </DBL>
         <DBL>
             <Name>Z Minimum Extension</Name>
@@ -130,6 +94,30 @@
         </DBL>
         <DBL>
             <Name>Z Piezo Response</Name>
+            <Val>1000.00000000000000</Val>
+        </DBL>
+        <String>
+            <Name>Version</Name>
+            <Val>1.0.0</Val>
+        </String>
+    </Cluster>
+    <Cluster>
+        <Name>Set Points</Name>
+        <NumElts>5</NumElts>
+        <DBL>
+            <Name>X Position Set-point</Name>
+            <Val>700.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Y Position Set-point</Name>
+            <Val>950.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Z Position Set-point</Name>
+            <Val>1125.00000000000000</Val>
+        </DBL>
+        <DBL>
+            <Name>Z Scan Set-point</Name>
             <Val>1000.00000000000000</Val>
         </DBL>
         <String>
@@ -146,44 +134,8 @@
         </DBL>
         <DBL>
             <Name>Ramp Rate</Name>
-            <Val>0.40000000000000</Val>
+            <Val>1.00000000000000</Val>
         </DBL>
-        <String>
-            <Name>Version</Name>
-            <Val>1.0.0</Val>
-        </String>
-    </Cluster>
-    <Cluster>
-        <Name>Set Points</Name>
-        <NumElts>5</NumElts>
-        <DBL>
-            <Name>X Position Set-point</Name>
-            <Val>1000.00000000000000</Val>
-        </DBL>
-        <DBL>
-            <Name>Y Position Set-point</Name>
-            <Val>2000.99999999999999</Val>
-        </DBL>
-        <DBL>
-            <Name>Z Position Set-point</Name>
-            <Val>3000.00000000000000</Val>
-        </DBL>
-        <DBL>
-            <Name>Z Scan Set-point</Name>
-            <Val>3000.00000000000000</Val>
-        </DBL>
-        <String>
-            <Name>Version</Name>
-            <Val>1.0.0</Val>
-        </String>
-    </Cluster>
-    <Cluster>
-        <Name>Debugging</Name>
-        <NumElts>2</NumElts>
-        <Boolean>
-            <Name>In Place Debug Enabled</Name>
-            <Val>0</Val>
-        </Boolean>
         <String>
             <Name>Version</Name>
             <Val>1.0.0</Val>
