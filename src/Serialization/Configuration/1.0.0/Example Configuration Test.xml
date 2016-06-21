@@ -1,4 +1,3 @@
-
 <LVData>
   <Version>13.0f2</Version>
   <Cluster>
@@ -139,14 +138,18 @@
 </Cluster>
   <Cluster>
     <Name>Experimental Parameters</Name>
-    <NumElts>3</NumElts>
+    <NumElts>4</NumElts>
     <DBL>
       <Name>Number of Samples</Name>
       <Val>10000.00000000000000</Val>
 </DBL>
     <DBL>
       <Name>Ramp Rate</Name>
-      <Val>0.40000000000000</Val>
+      <Val>1.00000000000000</Val>
+</DBL>
+    <DBL>
+      <Name>Z Scan Size</Name>
+      <Val>1000.00000000000000</Val>
 </DBL>
     <String>
       <Name>Version</Name>
@@ -155,22 +158,18 @@
 </Cluster>
   <Cluster>
     <Name>Set Points</Name>
-    <NumElts>5</NumElts>
+    <NumElts>4</NumElts>
     <DBL>
       <Name>X Position Set-point</Name>
       <Val>1000.00000000000000</Val>
 </DBL>
     <DBL>
       <Name>Y Position Set-point</Name>
-      <Val>2001.00000000000000</Val>
+      <Val>2500.00000000000000</Val>
 </DBL>
     <DBL>
       <Name>Z Position Set-point</Name>
-      <Val>3000.00000000000000</Val>
-</DBL>
-    <DBL>
-      <Name>Z Scan Set-point</Name>
-      <Val>3000.00000000000000</Val>
+      <Val>4249.99999999999999</Val>
 </DBL>
     <String>
       <Name>Version</Name>
