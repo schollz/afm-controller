@@ -6,15 +6,15 @@
         <NumElts>4</NumElts>
         <DBL>
             <Name>Number of Sweeps</Name>
-            <Val>0.00000000000000</Val>
+            <Val>512.00000000000000</Val>
         </DBL>
         <DBL>
             <Name>Calibration Sample Rate</Name>
-            <Val>0.00000000000000</Val>
+            <Val>500.00000000000000</Val>
         </DBL>
         <DBL>
             <Name>Samples Per Sweep</Name>
-            <Val>0.00000000000000</Val>
+            <Val>1024.00000000000000</Val>
         </DBL>
         <String>
             <Name>Version</Name>
