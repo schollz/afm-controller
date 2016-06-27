@@ -146,7 +146,7 @@
         </DBL>
         <DBL>
             <Name>Ramp Rate</Name>
-            <Val>1.00000000000000</Val>
+            <Val>1000.00000000000000</Val>
         </DBL>
         <DBL>
             <Name>Z Scan Size</Name>
