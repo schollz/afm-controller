@@ -330,7 +330,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/AFM Controller/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{639E5369-2CE5-48E3-A31B-6126D5517C97}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EDAD4CF9-1344-43BE-80D0-9F5E76F97753}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/User Interface/Main GUI.vi</Property>
