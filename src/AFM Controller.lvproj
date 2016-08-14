@@ -16,6 +16,7 @@
 		<Item Name="test" Type="Folder" URL="../../test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="AnalysisVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/AnalysisVI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -25,9 +26,11 @@
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="DAQmx Advance Trigger (Digital Edge).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/trigger.llb/DAQmx Advance Trigger (Digital Edge).vi"/>
 				<Item Name="DAQmx Advance Trigger (None).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/trigger.llb/DAQmx Advance Trigger (None).vi"/>
@@ -247,6 +250,7 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
@@ -270,7 +274,14 @@
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
+				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
+				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
+				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
@@ -298,13 +309,39 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
+			<Item Name="AnalysisPlottingActionEngine_AddCurrentFitToRecordsWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_AddCurrentFitToRecordsWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_AddCurrentToRecordsWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_AddCurrentToRecordsWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_ClearAllFitsWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_ClearAllFitsWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_ClearAllWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_ClearAllWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_InitWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_InitWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_ReadAllWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_ReadAllWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_ReadBaselineWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_ReadBaselineWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_ReadSizesWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_ReadSizesWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_RemoveFitWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_RemoveFitWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_RemoveRecordWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_RemoveRecordWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_UpdateBaselineWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_UpdateBaselineWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_WriteCurrentFitWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_WriteCurrentFitWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngine_WriteCurrentWrapper.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngine_WriteCurrentWrapper.vi"/>
+			<Item Name="AnalysisPlottingActionEngineEnum.ctl" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngineEnum.ctl"/>
+			<Item Name="AnalysisPlottingActionEngineVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/Action Engine/AnalysisPlottingActionEngineVI.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="FreelyJointedChainFittingVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/FreelyJointedChainFittingVI.vi"/>
+			<Item Name="LegacyLabVIEWTypeEnum.ctl" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/LegacyLabVIEWTypeEnum.ctl"/>
+			<Item Name="LoadCurrentLabVIEWtdmsVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/LoadCurrentLabVIEWtdmsVI.vi"/>
+			<Item Name="LoadLegacyFileDumpVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/LoadLegacyFileDumpVI.vi"/>
+			<Item Name="LoadLegacyLabVIEWFileChooseTypeVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/LoadLegacyLabVIEWFileChooseTypeVI.vi"/>
+			<Item Name="LoadLegacyLabVIEWFileVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/LoadLegacyLabVIEWFileVI.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ProcessLegacyLabVIEWFileVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/ProcessLegacyLabVIEWFileVI.vi"/>
+			<Item Name="QueueCluster.ctl" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/QueueCluster.ctl"/>
+			<Item Name="RefreshPlotVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/RefreshPlotVI.vi"/>
+			<Item Name="UpdatePlotNamesVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/UpdatePlotNamesVI.vi"/>
+			<Item Name="WormLikeChainFittingVI.vi" Type="VI" URL="/D/Documents/2013-2014 Sophomore Year/Lab/LabView Project/OneDrive Sync Folder/Analysis VIs/WormLikeChainFittingVI.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AFM Controller" Type="EXE">
